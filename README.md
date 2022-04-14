@@ -52,7 +52,10 @@ After collecting data, I performed several steps to clean and refine the data to
 ## EDA
 Some noteable findings from performing exploratory data analysis:
 
-![alt text](https://github.com/elayer/Amazon-Computer-Project/blob/main/price-by-processor-type.png "RAM Boxplots")
+![alt text](https://github.com/elayer/Amazon-Computer-Project/blob/main/price-by-processor-type.png "Processor Type Boxplots")
+![alt text](https://github.com/elayer/Amazon-Computer-Project/blob/main/price-histogram.png "Price Distribution")
+![alt text](https://github.com/elayer/Amazon-Computer-Project/blob/main/price-by-RAM-boxplots.png "RAM Boxplots")
+![alt text](https://github.com/elayer/Amazon-Computer-Project/blob/main/price-to-brand-lmplots.png "RAM vs. Price per Brand")
 
 ## Model Building
 
