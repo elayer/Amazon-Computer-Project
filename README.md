@@ -50,6 +50,9 @@ After collecting data, I performed several steps to clean and refine the data to
 *
 
 ## EDA
+Some noteable findings from performing exploratory data analysis:
+
+![alt text](https://github.com/elayer/Amazon-Computer-Project/blob/main/price-by-processor-type.png "RAM Boxplots")
 
 ## Model Building
 
