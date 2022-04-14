@@ -14,3 +14,5 @@
 ## Code and Resources Used:
 
 <b>Python Version</b>: 3.8.5
+<b>Packages</b>: numpy, pandas, scipy, matplotlib, seaborn, sklearn, xgboost, catboost
+<b>Web Framework Requirements Command</b>: pip install -r requirements.txt
