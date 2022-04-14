@@ -47,7 +47,19 @@ After collecting data, I performed several steps to clean and refine the data to
 
 * Parsed the brand name out of the general product information collected from the listings
 
-*
+* Created Liquid Cooled and Bluetooth attributes by parsing the product information for if it contained the capability for these features
+
+* Coalesced the processor types written differently to be uniform across the data and removed any outliers 
+
+* Reformatted the price, number of ratings, and avg. ratings columns to be appropriate numeric values. Dropped rows that had no price target variable
+
+* Reformatted and rescaled Processor speed, RAM, and disk size to numeric values and scaled each attribute to GB
+
+*   Removed outliers from the data that had very extreme value using <b>Z-Score</b>
+
+* Ordinally encoded processor tpyes and dropped the records that were extremely underrepresented
+
+* Created dummy variables for the brands of the computers that were not extremely underrepresented
 
 ## EDA
 Some noteable findings from performing exploratory data analysis can be seen below. When going from a low to more high-end processor, the price of a computer does indeed increase. The same applies to RAM. In addition, I noticed some brands were priced higher even with similar or lower amounts of disk space. I eventually found that just as big of a driver in price was the brand of a computer, and not only the specs.
