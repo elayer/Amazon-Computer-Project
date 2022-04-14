@@ -67,7 +67,7 @@ I first tried a few different linear models and some variations of them:
 * This then led me to try Random Forest, XGBoost, and CatBoost regression because of the sparse binary/categorical nature of most of the attributes in the data. 
 
 ## Model Performance
-The Random Forest, XGBoost, and CatBoost regression models respectively had imrpoved performance. These models considerably outperformed the linear regression models I tried previously. Below are the R2 score values for the models:
+The Random Forest, XGBoost, and CatBoost regression models respectively had imrpoved performances. These models considerably outperformed the linear regression models I tried previously. Below are the R2 score values for the models:
 
 * Linear Regression: 72.28 (the best of the linear models)
 
