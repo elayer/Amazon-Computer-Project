@@ -8,7 +8,7 @@
 
 * Began model building with Linear, Lasso, Ridge, and ElasticNet linear models, as well Random Forest regression. Then, built optimized models using Optuna with XGBoost and CatBoost regression 
 
-* Created an API for clients using Flask. 
+* Created an API for potential clients using Flask. 
 
 
 ## Code and Resources Used:
