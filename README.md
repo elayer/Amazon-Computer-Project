@@ -18,3 +18,9 @@
 <b>Packages</b>: numpy, pandas, scipy, matplotlib, seaborn, sklearn, xgboost, catboost
 
 <b>Web Framework Requirements Command</b>: pip install -r requirements.txt
+
+## References:
+
+* Various project structure and process elements were learned from Ken Jee's YouTube series: https://www.youtube.com/watch?v=MpF9HENQjDo&list=PL2zq7klxX5ASFejJj80ob9ZAnBHdz5O1t
+
+* CatBoost Regression article: https://towardsdatascience.com/catboost-regression-in-6-minutes-3487f3e5b329
