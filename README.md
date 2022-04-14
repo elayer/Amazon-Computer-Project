@@ -47,3 +47,11 @@ Created a web scraper using Requests and Beauitful Soup. From each product listi
 * Liquid Cooled
 
 * Price
+
+## Data Cleaning
+
+After collecting data, I performed several steps to clean and refine the data to prepare for further processing and model building. I went through the following steps to clean and prepare the data:
+
+* Parsed the brand name out of the general product information collected from the listings
+
+*
