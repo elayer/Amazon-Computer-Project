@@ -12,3 +12,5 @@
 
 
 ## Code and Resources Used:
+
+* Python Version: 3.8.5
