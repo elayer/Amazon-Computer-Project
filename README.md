@@ -13,4 +13,4 @@
 
 ## Code and Resources Used:
 
-* Python Version: 3.8.5
+<b>Python Version</b>: 3.8.5
