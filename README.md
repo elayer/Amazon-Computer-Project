@@ -74,7 +74,7 @@ Before building any models, I transformed the categorical variables into appropr
 
 I first tried a few different linear models and some variations of them:
 
-* starting with Linear regression, and then trying Lasso, Ridge, and ElasticNet to see if the results would change since we have many binary columns. 
+* Starting with Linear regression, and then trying Lasso, Ridge, and ElasticNet to see if the results would change since we have many binary columns. 
 
 * This then led me to try Random Forest, XGBoost, and CatBoost regression because of the sparse binary/categorical nature of most of the attributes in the data. 
 
