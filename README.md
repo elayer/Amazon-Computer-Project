@@ -15,7 +15,7 @@
 
 **Python Version:** 3.8.5
 
-**Packages:** numpy, pandas, scipy, requests, beautiful soup, matplotlib, seaborn, sklearn, xgboost, catboost
+**Packages:** numpy, pandas, scipy, requests, beautiful soup, matplotlib, seaborn, sklearn, xgboost, catboost, optuna
 
 **Web Framework Requirements Command:** ```pip install -r requirements.txt```
 
