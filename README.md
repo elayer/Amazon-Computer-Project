@@ -81,7 +81,7 @@ I first tried a few different linear models and some variations of them:
 ## Model Performance
 The Random Forest, XGBoost, and CatBoost regression models respectively had improved performances. These models considerably outperformed the linear regression models I tried previously. Below are the R2 score values for the models:
 
-* Linear Regression: 72.28 (the best of the linear models)
+* Linear Regression: 72.28 (the best of the linear models as a baseline)
 
 * Random Forest Regression: 83.76
 
@@ -93,3 +93,8 @@ I used Optuna with XGBoost and CatBoost to build an optimized model especially w
 
 ## Productionization
 I lasted created a Flask API hosted on a local webserver. For this step I primarily followed the productionization step from the YouTube tutorial series found in the refernces above. This endpoint could be used to take in certain aspects of a computer, make appropriate transformations to the variables, and return a predicted price for a computer.  
+
+## Future Improvements
+If there are any efforts in the future to improve this project, I would start with the data itself. Though, it is very difficult to obtain data by scraping amazon product listings pages in a more sophisticated way to obtain more honest nad genuine data about the products. Some aspects that I believe could have helped the project is improved data quality and display on Amazon, and practical points in product listings to acquire more details that could benefit model construction such as a computer's GPU. 
+
+In terms of model building, perhaps some advanced regression methods such as stacking or blending methods could enhance the model beyond the metrics currently obtained. 
