@@ -98,6 +98,9 @@ I lasted created a Flask API hosted on a local webserver. For this step I primar
 
 ![alt text](https://github.com/elayer/Amazon-Computer-Project/blob/main/amazon_homepage.png "Website Homepage")
 ![alt text](https://github.com/elayer/Amazon-Computer-Project/blob/main/amazon_prediction.png "Website Prediction Page")
+![alt text](https://github.com/elayer/Amazon-Computer-Project/blob/main/amazon_products_example.png "Products Example")
+
+Even though the given specs provides a good prediction for some examples (see picture above), there are also product listings that have higher and lower prices which may skew some results when making predictions. For instance, there are computers with the exact the same specs as the examples listed above with much higher prices. In the future, this could be an area of improvement for this project.
 
 ## Future Improvements
 If there are any efforts in the future to improve this project, I would start with the data itself. Though, it is very difficult to obtain data by scraping amazon product listings pages in a more sophisticated way to obtain more honest nad genuine data about the products. Some aspects that I believe could have helped the project is improved data quality and display on Amazon, and practical points in product listings to acquire more details that could benefit model construction such as a computer's GPU. 
