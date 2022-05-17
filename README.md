@@ -91,6 +91,8 @@ The Random Forest, XGBoost, and CatBoost regression models respectively had impr
 
 I used Optuna with XGBoost and CatBoost to build an optimized model especially with the various attributes that these algorithms have. Since the data used is very sparse or represent specific definitive values (categories), it makes sense that the tree-based methods perform much better. 
 
+<b>UPDATE:</b> Even though the CatBoost regression obtained the highest r2 score, the linear regression model with regularization could still be a better choice. In the future, we could compare the above models and choose one based on mock predictions made from the Flask application.
+
 ## Productionization
 I created a Flask API hosted on a local webserver. For this step I primarily followed the productionization step from the YouTube tutorial series found in the refernces above. This endpoint could be used to take in certain aspects of a computer, make appropriate transformations to the variables, and return a predicted price for a computer.  
 
