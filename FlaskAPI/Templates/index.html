@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css" rel="nofollow" integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I" crossorigin="anonymous">
+
+<style type="text/css">
+    .lbl {
+        text-align: center;
+        width: 100px;
+        white-space: nowrap;
+    }
+
+    .fld {
+        width: 100%;
+    }
+
+    .frm {
+        display: inline-block;
+    }
+
+</style>
+
+</head>
+ 
+<div style="background-image: url('https://wallpaperbat.com/img/729253-landscape-pixel-art-wallpaper-hd-artist-4k-wallpaper-image-photo-and-background.jpg'); background-repeat: no-repeat; background-size: cover; height: 1080px;">
+  
+ <div class="big" align="center">
+ <h1 style="background-color: transparent;">Amazon Gaming Computer Price Predictor</h1>
+ <h4 style="background-color: transparent;">Enter your desired computer specs below. Then, click submit to acquire an estimated price.</h4>
+ <br>
+ <br>
+  <form action="/result" method="POST">
+  
+    <div class="frm">
+    <table>
+    
+    <tr>
+    <td class="lbl"><label for="brand">Computer Brand</label></td>
+    <td><select id="brand" name="brand">
+      <option value="0">ASUS ROG</option>
+      <option value="1">Acer</option>
+      <option value="2">Adamant</option>
+      <option value="3">Alienware</option>
+      <option value="4">CLX</option>
+      <option value="5">CUK</option>
+      <option value="6">Dell</option>
+      <option value="7">HP</option>
+      <option value="8">Lenovo</option>
+      <option value="9">MSI</option>
+      <option value="10">OMEN</option>
+      <option value="11">SkyTech</option>
+      <option value="12">Velztorm</option>
+      <option value="13">iBUYPOWER</option>
+    </select></td>
+    </tr>
+    <tr>
+    <td class="lbl"><label for="proctype">Processor Type</label></td>
+    <td><select id="proctype" name="proctype">
+      <option value="1">Intel Core i3</option>
+      <option value="5">Intel Core i5</option>
+      <option value="6">Intel Core i7</option>
+      <option value="10">Intel Core i9</option>
+      <option value="2">Ryzen 3</option>
+      <option value="4">Ryzen 5</option>
+      <option value="7">Ryzen 7</option>
+      <option value="9">Ryzen 9</option>
+      <option value="3">AMD A Series</option>
+      <option value="8">AMD R Series</option>
+    </select></td>
+    </tr>
+    <tr>
+    <td class="lbl"><label for="bluetooth">Bluetooth</label></td>
+    <td><select id="bluetooth" name="bluetooth">
+      <option value="0">No Bluetooth</option>
+      <option value="1">Bluetooth</option>
+    </select></td>
+    </tr>
+    <tr>
+    <td class="lbl"><label for="liquid">Liquid Cooled</label></td>
+    <td><select id="liquid" name="liquid">
+      <option value="0">Non-Liquid Cooled</option>
+      <option value="1">Liquid Cooled</option>
+    </select></td>
+    </tr>
+    <tr>
+    <td class="lbl"><label for="ram">RAM : GB</label></td>
+    <td><select id="ram" name="ram">
+      <option value="2.0">2.0</option>
+      <option value="4.0">4.0</option>
+      <option value="8.0">8.0</option>
+      <option value="12.0">12.0</option>
+      <option value="16.0">16.0</option>
+      <option value="24.0">24.0</option>
+      <option value="32.0">32.0</option>
+      <option value="64.0">64.0</option>
+      <option value="128.0">128.0</option>
+      <option value="256.0">256.0</option>
+    </select></td>
+    </tr>
+    <tr>
+    <td class="lbl"><label for="procspeed">Processor Speed: GHz</label></td>
+      <td><input type="text" id="procspeed" name="procspeed" value="4.0"> Between [2.0-8.0]</td>
+    </tr>
+    <tr>
+    <td class="lbl"><label for="disksize">Disk Size: GB</label></td>
+      <td><input type="text" id="disksize" name="disksize" value="1000"> Between [0-20000]</td>
+    </tr>
+    
+    </table>
+    </div>
+    
+    <br>
+    <br>
+    
+    <input type="submit" value="Submit" class="p-2 mb-3 bg-success text-white">
+  </form>
+ </div>
+</div>
+</body>
+</html>
