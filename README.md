@@ -112,3 +112,5 @@ If there are any efforts in the future to improve this project, I would start wi
 In terms of model building, perhaps some advanced regression methods such as stacking or blending methods could enhance the model beyond the metrics currently obtained. 
 
 We also could juxtapose the other models with mock predictions made with the Flask application. Even though the regression models obtained lower r2 scores, they could still be more viable models, particularly the ones with regularization. 
+
+Having more data alone I believe would greatly improve the model as well.
