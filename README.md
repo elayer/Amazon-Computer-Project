@@ -113,4 +113,6 @@ In terms of model building, perhaps some advanced regression methods such as sta
 
 We also could juxtapose the other models with mock predictions made with the Flask application. Even though the regression models obtained lower r2 scores, they could still be more viable models, particularly the ones with regularization. 
 
-Having more data alone I believe would greatly improve the model as well.
+Having more data alone I believe would greatly improve the model as well, as well as changing the train test split proportion to allow for more data to train with since we only have so many records.
+
+Also we could experiment with optimizing the lowest RMSE or MAE with Optuna instead of maximizing the R2 score and compare results.
