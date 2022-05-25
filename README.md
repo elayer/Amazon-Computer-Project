@@ -109,7 +109,7 @@ If there are any efforts in the future to improve this project, I would start wi
 
 **I also think there are still outliers that may throw off some predictions since even products with the same base specs could have varying prices due to some other factors we can't capture with the data at hand. I could choose to return to the data itself and remove any outliers from records with similar specs across the board yet differ in price greatly. See production example for further understanding.**
 
-In terms of model building, perhaps some advanced regression methods such as stacking or blending methods could enhance the model beyond the metrics currently obtained. 
+In terms of model building, perhaps some advanced regression methods such as stacking or blending methods could enhance the model beyond the metrics currently obtained. Also, since there are many transformed binary attributes making the data very sparse, trying an SVM could be a well-suited algorithm for this project. 
 
 We also could juxtapose the other models with mock predictions made with the Flask application. Even though the regression models obtained lower r2 scores, they could still be more viable models, particularly the ones with regularization. 
 
